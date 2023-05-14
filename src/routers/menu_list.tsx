@@ -21,7 +21,7 @@ const menuList = [
     icon: <ShopOutlined />,
     message: '账户余额和充值套餐记录',
     modes: ['mix','business']
-  }
+  },
 
 ]
 export default menuList
