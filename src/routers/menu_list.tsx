@@ -22,6 +22,12 @@ const menuList = [
     message: '账户余额和充值套餐记录',
     modes: ['mix','business']
   },
-
+{
+    path: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Iq1w_nKYwTFPWuB-zuVT-nrbdoPDB7Ll&authKey=zmSTAteoPmTPImnzDDnshlOQdOC%2BPRFgO5zedhjA%2Bkp5tSdcnNJtsPJ6y9uOV75l&noverify=0&group_code=345982124',
+    name: 'QQ交流群',
+    icon: <GithubOutlined />,
+    message: '',
+    modes: ['mix','proxy','business']
+  }
 ]
 export default menuList
