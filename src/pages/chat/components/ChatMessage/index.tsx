@@ -131,7 +131,7 @@ function ChatMessage({
       {position === 'left' &&
         chatAvatar({
           style: { marginRight: 8 },
-          icon: 'https://cdn.jsdelivr.net/gh/duogongneng/testuitc/svg-1681898659579.svg'
+          icon: 'https://i.imgloc.com/2023/05/20/VyGYky.jpeg'
         })}
       <div className={styles.chatMessage_content}>
         <span
