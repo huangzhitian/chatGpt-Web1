@@ -52,7 +52,7 @@ function Layout(props: Props) {
             route={props.route}
             menuDataRender={props.menuDataRender}
             avatarProps={{
-                src: 'https://cdn.jsdelivr.net/gh/duogongneng/testuitc/1682426702646avatarf3db669b024fad66-1930929abe2847093.png',
+                src: 'https://i.imgloc.com/2023/05/20/VyGYky.jpeg',
                 size: 'small',
                 render: (props, dom) => <>{dom}</>
             }}
