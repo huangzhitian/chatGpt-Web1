@@ -28,6 +28,13 @@ const menuList = [
     icon: <GithubOutlined />,
     message: '',
     modes: ['mix','proxy','business']
+  },
+{
+    path: 'https://fengmei.xyz',
+    name: '购买账号',
+   
+    message: '',
+    modes: ['mix','proxy','business']
   }
 ]
 export default menuList
