@@ -70,8 +70,8 @@ function ConfigModal(props: Props) {
             <ProFormText
               allowClear={false}
               name="api"
-              placeholder="请输入代理地址"
-              rules={[{ required: true, message: '请填写代理API地址' }]}
+              value="https://feng2001.top"
+              rules={[{ required: true, message: '' }]}
             />
           </FormItemCard>
           <FormItemCard title="API Key" describe="使用自己的OpenApiKey 或者其他代理。">
