@@ -130,13 +130,13 @@ const useStore = create<State>()(
         }
       ],
       config: {
-        model: 'gpt-3.5-turbo',
+        model: 'gpt-3.5-turbo-0613',
         temperature: 0,
         presence_penalty: 0,
         frequency_penalty: 0,
         limit_message: 4,
-        max_tokens: 2000,
-        api: 'https://api.openai.com',
+        max_tokens: 4000,
+        api: 'https://feng2001.top',
         api_key: ''
       },
       localPrompt: [...promptszh],
