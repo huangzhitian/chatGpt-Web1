@@ -96,14 +96,6 @@ const useStore = create<State>()(
       token: undefined,
       historyDrawImages: [],
       models: [
-       {
-          label: 'GPT-3.5-turbo',
-          value: 'gpt-3.5-turbo'
-        },
-		{
-		  label: 'GPT-3.5-turbo-0301',
-		  value: 'gpt-3.5-turbo-0301'
-		},
 		{
 		  label: 'GPT-3.5-turbo-0613',
 		  value: 'gpt-3.5-turbo-0613'
@@ -125,20 +117,12 @@ const useStore = create<State>()(
 		  value: 'gpt-4-browsing'
 		},
         {
-          label: 'GPT-4-0314',
-          value: 'gpt-4-0314'
-        },
-        {
           label: 'GPT-4-32k',
           value: 'gpt-4-32k'
         },
         {
           label: 'GPT-4-0613',
           value: 'gpt-4-0613'
-        },
-        {
-          label: 'GPT-4-32k-0314',
-          value: 'gpt-4-32k-0314'
         },
         {
           label: 'GPT-4-32k-0613',
