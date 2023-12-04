@@ -97,40 +97,20 @@ const useStore = create<State>()(
       historyDrawImages: [],
       models: [
 		{
-		  label: 'GPT-3.5-turbo-0613',
-		  value: 'gpt-3.5-turbo-0613'
-		},
-		{
-		  label: 'GPT-3.5-turbo-16k',
-		  value: 'gpt-3.5-turbo-16k'
-		},
-		{
-		  label: 'GPT-3.5-turbo-16k-0613',
-		  value: 'gpt-3.5-turbo-16k-0613'
+		  label: 'GPT-3.5-turbo-1106',
+		  value: 'gpt-3.5-turbo-1106'
 		},
 		{
 		  label: 'GPT-4',
 		  value: 'gpt-4'
 		},
-		{
-		  label: 'GPT-4-联网',
-		  value: 'gpt-4-browsing'
-		},
         {
-          label: 'GPT-4-32k',
-          value: 'gpt-4-32k'
-        },
-        {
-          label: 'GPT-4-0613',
-          value: 'gpt-4-0613'
-        },
-        {
-          label: 'GPT-4-32k-0613',
-          value: 'gpt-4-32k-0613'
+          label: 'GPT-4-1106-preview3',
+          value: 'gpt-4-1106-preview'
         }
       ],
       config: {
-        model: 'gpt-3.5-turbo-0613',
+        model: 'gpt-3.5-turbo-1106',
         temperature: 0,
         presence_penalty: 0,
         frequency_penalty: 0,
